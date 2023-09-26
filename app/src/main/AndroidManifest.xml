@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="es.uniovi.imovil.epi_diabeticlog">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_app_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Epidiabeticlog">
+        <activity android:name=".Usuario.View.SignUpActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".Usuario.View.LoginActivity"
+            android:windowSoftInputMode="adjustPan">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Epidiabeticlog.NoActionBar"
+            android:windowSoftInputMode="adjustPan"
+            />
+
+        <receiver android:name=".Alimentacion.View.AlimentacionFragment$DesayunoAlarmReceiver" />
+        <receiver android:name=".Alimentacion.View.AlimentacionFragment$MedimanaAlarmReceiver" />
+        <receiver android:name=".Alimentacion.View.AlimentacionFragment$ComidaAlarmReceiver" />
+        <receiver android:name=".Alimentacion.View.AlimentacionFragment$MeriendaAlarmReceiver" />
+        <receiver android:name=".Alimentacion.View.AlimentacionFragment$CenaAlarmReceiver" />
+        <receiver android:name=".Alimentacion.View.AlimentacionFragment$PreferencesAlimentacionAlarmReceiver" />
+        <receiver android:name=".Insulina.View.InsulinaFragment$InsulinaLentaAlarmReceiver" />
+        <receiver android:name=".Insulina.View.InsulinaFragment$InsulinaRapidaDesayunoAlarmReceiver" />
+        <receiver android:name=".Insulina.View.InsulinaFragment$InsulinaRapidaComidaAlarmReceiver" />
+        <receiver android:name=".Insulina.View.InsulinaFragment$InsulinaRapidaCenaAlarmReceiver" />
+        <receiver android:name=".Insulina.View.InsulinaFragment$PreferencesInsulinaAlarmReceiver" />
+        <receiver android:name=".ActividadFisicaAutomatica.View.ActividadFisicaAutomaticaFragment$SavePedometerAlarmReceiver" />
+        <receiver android:name=".ActividadFisicaAutomatica.View.ActividadFisicaAutomaticaFragment$ResetPodometerPreferencesAlarmReceiver" />
+
+    </application>
+
+</manifest>

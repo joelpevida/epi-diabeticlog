@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipos_ingesta">
+        <item>@string/Desayuno</item>
+        <item>@string/Media_manana</item>
+        <item>@string/Comida</item>
+        <item>@string/Merienda</item>
+        <item>@string/Cena</item>
+        <item>@string/Extra</item>
+    </string-array>
+
+    <string-array name="tipos_insulina">
+        <item>@string/Lenta</item>
+        <item>@string/Intermedia</item>
+        <item>@string/Rapida</item>
+    </string-array>
+
+    <string-array name="tipos_aplicacion">
+        <item>@string/Normal</item>
+        <item>@string/Extra</item>
+    </string-array>
+
+
+    <string-array name="tipos_actividad">
+        <item>@string/Correr</item>
+        <item>@string/Caminar</item>
+        <item>@string/Nadar</item>
+        <item>@string/Futbol</item>
+        <item>@string/Baloncesto</item>
+        <item>@string/Gimnsasio</item>
+        <item>@string/Hockey</item>
+        <item>@string/Tenis</item>
+        <item>@string/Padel</item>
+        <item>@string/Pingpong</item>
+        <item>@string/Otra</item>
+    </string-array>
+
+    <string-array name="tipos_intensidad">
+        <item>@string/Alta</item>
+        <item>@string/Media</item>
+        <item>@string/Baja</item>
+
+    </string-array>
+</resources>

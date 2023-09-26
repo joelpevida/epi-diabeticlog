@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_pantallainicio">
+
+    <fragment
+        android:id="@+id/addRegistroActividadFisicaManualFragment"
+        android:name="es.uniovi.imovil.epi_diabeticlog.ActividadFisicaManual.View.AddRegistroActividadFisicaManualFragment"
+        android:label="AddRegistroActividadFisicaManualFragment" />
+    <fragment
+        android:id="@+id/nav_registroactividadfisicamanual"
+        android:name="es.uniovi.imovil.epi_diabeticlog.ActividadFisicaManual.View.RegistroActividadFisicaManualFragment"
+        android:label="RegistroActividadFisicaManualFragment" />
+    <fragment
+        android:id="@+id/editRegistroActividadFisicaManualFragment"
+        android:name="es.uniovi.imovil.epi_diabeticlog.ActividadFisicaManual.View.EditRegistroActividadFisicaManualFragment"
+        android:label="EditRegistroActividadFisicaManualFragment" />
+    <fragment
+        android:id="@+id/nav_alimentacion"
+        android:name="es.uniovi.imovil.epi_diabeticlog.Alimentacion.View.AlimentacionFragment"
+        android:label="fragment_alimentacion"
+        tools:layout="@layout/fragment_alimentacion" />
+    <fragment
+        android:id="@+id/editIngestaFragment"
+        android:name="es.uniovi.imovil.epi_diabeticlog.Alimentacion.View.EditIngestaFragment"
+        android:label="fragment_editingesta"
+        tools:layout="@layout/fragment_edit_ingesta" />
+    <fragment
+        android:id="@+id/addIngestaFragment"
+        android:name="es.uniovi.imovil.epi_diabeticlog.Alimentacion.View.AddIngestaFragment"
+        android:label="AddIngestaFragment" />
+    <fragment
+        android:id="@+id/nav_insulina"
+        android:name="es.uniovi.imovil.epi_diabeticlog.Insulina.View.InsulinaFragment"
+        android:label="InsulinaFragment" />
+    <fragment
+        android:id="@+id/addAplicacionInsulinaFragment"
+        android:name="es.uniovi.imovil.epi_diabeticlog.Insulina.View.AddAplicacionInsulinaFragment"
+        android:label="AddAplicacionInsulinaFragment" />
+    <fragment
+        android:id="@+id/editAplicacionInsulinaFragment"
+        android:name="es.uniovi.imovil.epi_diabeticlog.Insulina.View.EditAplicacionInsulinaFragment"
+        android:label="EditAplicacionInsulinaFragment" />
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="es.uniovi.imovil.epi_diabeticlog.Usuario.View.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/nav_registroactividadfisicaautomatica"
+        android:name="es.uniovi.imovil.epi_diabeticlog.ActividadFisicaAutomatica.View.ActividadFisicaAutomaticaFragment"
+        android:label="fragment_actividad_fisica_automatica"
+        tools:layout="@layout/fragment_actividad_fisica_automatica" />
+    <fragment
+        android:id="@+id/nav_glucosa"
+        android:name="es.uniovi.imovil.epi_diabeticlog.Glucosa.View.GlucosaFragment"
+        android:label="fragment_glucosa"
+        tools:layout="@layout/fragment_glucosa" />
+    <fragment
+        android:id="@+id/addGlucosaFragment"
+        android:name="es.uniovi.imovil.epi_diabeticlog.Glucosa.View.AddGlucosaFragment"
+        android:label="fragment_add_glucosa"
+        tools:layout="@layout/fragment_add_glucosa" />
+    <fragment
+        android:id="@+id/editGlucosaFragment"
+        android:name="es.uniovi.imovil.epi_diabeticlog.Glucosa.View.EditGlucosaFragment"
+        android:label="fragment_edit_glucosa"
+        tools:layout="@layout/fragment_edit_glucosa" />
+    <fragment
+        android:id="@+id/nav_pantallainicio"
+        android:name="es.uniovi.imovil.epi_diabeticlog.PantallaInicio.View.PantallaInicioFragment"
+        android:label="fragment_pantalla_inicio"
+        tools:layout="@layout/fragment_pantalla_inicio" />
+</navigation>

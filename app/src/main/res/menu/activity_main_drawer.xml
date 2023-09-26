@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pantallainicio"
+            android:icon="@drawable/ic_pantalla_inicio"
+            android:title="@string/menu_pantalla_inicio" />
+        <item
+            android:id="@+id/nav_alimentacion"
+            android:icon="@drawable/ic_alimentacion"
+            android:title="@string/menu_alimentacion" />
+        <item
+            android:id="@+id/nav_registroactividadfisicaautomatica"
+            android:icon="@drawable/ic_registroactividadfisicaautomatica"
+            android:title="@string/menu_registroactividadfisicaautomatica" />
+        <item
+            android:id="@+id/nav_registroactividadfisicamanual"
+            android:icon="@drawable/ic_registroactividadfisicamanual"
+            android:title="@string/menu_registroactividadfisicamanual" />
+        <item
+            android:id="@+id/nav_insulina"
+            android:icon="@drawable/ic_insulina"
+            android:title="@string/menu_insulina" />
+        <item
+            android:id="@+id/nav_glucosa"
+            android:icon="@drawable/ic_glucosa"
+            android:title="@string/menu_glucosa" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_perfil"
+            android:title="@string/menu_perfil" />
+    </group>
+
+</menu>
